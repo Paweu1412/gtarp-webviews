@@ -12,8 +12,8 @@ export const Login = () => {
         </div>
         
         <div className="main">
-          <input type="text" placeholder="Login" />
-          <input type="password" placeholder="Hasło" />
+          <input type="text" spellcheck="false" placeholder="Login" />
+          <input type="password" spellcheck="false" placeholder="Hasło" />
 
           <div className="remember-me">
             <input type="radio" /> Zapamiętaj mnie
